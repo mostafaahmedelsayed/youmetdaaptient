@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6672C8962434925800DD9448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672C8952434925800DD9448 /* AppDelegate.swift */; };
+		6672C8982434925800DD9448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672C8972434925800DD9448 /* ViewController.swift */; };
+		6672C89B2434925800DD9448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6672C8992434925800DD9448 /* Main.storyboard */; };
+		6672C89D2434925900DD9448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6672C89C2434925900DD9448 /* Assets.xcassets */; };
+		6672C8A02434925900DD9448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6672C89E2434925900DD9448 /* LaunchScreen.storyboard */; };
+		6672C8AB2434925900DD9448 /* careMatePatientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672C8AA2434925900DD9448 /* careMatePatientTests.swift */; };
+		6672C8B62434925900DD9448 /* careMatePatientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672C8B52434925900DD9448 /* careMatePatientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6672C8A72434925900DD9448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6672C88A2434925800DD9448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6672C8912434925800DD9448;
+			remoteInfo = careMatePatient;
+		};
+		6672C8B22434925900DD9448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6672C88A2434925800DD9448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6672C8912434925800DD9448;
+			remoteInfo = careMatePatient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6672C8922434925800DD9448 /* careMatePatient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = careMatePatient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6672C8952434925800DD9448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6672C8972434925800DD9448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6672C89A2434925800DD9448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6672C89C2434925900DD9448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6672C89F2434925900DD9448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6672C8A12434925900DD9448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6672C8A62434925900DD9448 /* careMatePatientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = careMatePatientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6672C8AA2434925900DD9448 /* careMatePatientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = careMatePatientTests.swift; sourceTree = "<group>"; };
+		6672C8AC2434925900DD9448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6672C8B12434925900DD9448 /* careMatePatientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = careMatePatientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6672C8B52434925900DD9448 /* careMatePatientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = careMatePatientUITests.swift; sourceTree = "<group>"; };
+		6672C8B72434925900DD9448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6672C88F2434925800DD9448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6672C8A32434925900DD9448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6672C8AE2434925900DD9448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6672C8892434925800DD9448 = {
+			isa = PBXGroup;
+			children = (
+				6672C8942434925800DD9448 /* careMatePatient */,
+				6672C8A92434925900DD9448 /* careMatePatientTests */,
+				6672C8B42434925900DD9448 /* careMatePatientUITests */,
+				6672C8932434925800DD9448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6672C8932434925800DD9448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6672C8922434925800DD9448 /* careMatePatient.app */,
+				6672C8A62434925900DD9448 /* careMatePatientTests.xctest */,
+				6672C8B12434925900DD9448 /* careMatePatientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6672C8942434925800DD9448 /* careMatePatient */ = {
+			isa = PBXGroup;
+			children = (
+				6672C8952434925800DD9448 /* AppDelegate.swift */,
+				6672C8972434925800DD9448 /* ViewController.swift */,
+				6672C8992434925800DD9448 /* Main.storyboard */,
+				6672C89C2434925900DD9448 /* Assets.xcassets */,
+				6672C89E2434925900DD9448 /* LaunchScreen.storyboard */,
+				6672C8A12434925900DD9448 /* Info.plist */,
+			);
+			path = careMatePatient;
+			sourceTree = "<group>";
+		};
+		6672C8A92434925900DD9448 /* careMatePatientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6672C8AA2434925900DD9448 /* careMatePatientTests.swift */,
+				6672C8AC2434925900DD9448 /* Info.plist */,
+			);
+			path = careMatePatientTests;
+			sourceTree = "<group>";
+		};
+		6672C8B42434925900DD9448 /* careMatePatientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6672C8B52434925900DD9448 /* careMatePatientUITests.swift */,
+				6672C8B72434925900DD9448 /* Info.plist */,
+			);
+			path = careMatePatientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6672C8912434925800DD9448 /* careMatePatient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6672C8BA2434925900DD9448 /* Build configuration list for PBXNativeTarget "careMatePatient" */;
+			buildPhases = (
+				6672C88E2434925800DD9448 /* Sources */,
+				6672C88F2434925800DD9448 /* Frameworks */,
+				6672C8902434925800DD9448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = careMatePatient;
+			productName = careMatePatient;
+			productReference = 6672C8922434925800DD9448 /* careMatePatient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6672C8A52434925900DD9448 /* careMatePatientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6672C8BD2434925900DD9448 /* Build configuration list for PBXNativeTarget "careMatePatientTests" */;
+			buildPhases = (
+				6672C8A22434925900DD9448 /* Sources */,
+				6672C8A32434925900DD9448 /* Frameworks */,
+				6672C8A42434925900DD9448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6672C8A82434925900DD9448 /* PBXTargetDependency */,
+			);
+			name = careMatePatientTests;
+			productName = careMatePatientTests;
+			productReference = 6672C8A62434925900DD9448 /* careMatePatientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6672C8B02434925900DD9448 /* careMatePatientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6672C8C02434925900DD9448 /* Build configuration list for PBXNativeTarget "careMatePatientUITests" */;
+			buildPhases = (
+				6672C8AD2434925900DD9448 /* Sources */,
+				6672C8AE2434925900DD9448 /* Frameworks */,
+				6672C8AF2434925900DD9448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6672C8B32434925900DD9448 /* PBXTargetDependency */,
+			);
+			name = careMatePatientUITests;
+			productName = careMatePatientUITests;
+			productReference = 6672C8B12434925900DD9448 /* careMatePatientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6672C88A2434925800DD9448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = khabeer;
+				TargetAttributes = {
+					6672C8912434925800DD9448 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6672C8A52434925900DD9448 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6672C8912434925800DD9448;
+					};
+					6672C8B02434925900DD9448 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6672C8912434925800DD9448;
+					};
+				};
+			};
+			buildConfigurationList = 6672C88D2434925800DD9448 /* Build configuration list for PBXProject "careMatePatient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6672C8892434925800DD9448;
+			productRefGroup = 6672C8932434925800DD9448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6672C8912434925800DD9448 /* careMatePatient */,
+				6672C8A52434925900DD9448 /* careMatePatientTests */,
+				6672C8B02434925900DD9448 /* careMatePatientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6672C8902434925800DD9448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6672C8A02434925900DD9448 /* LaunchScreen.storyboard in Resources */,
+				6672C89D2434925900DD9448 /* Assets.xcassets in Resources */,
+				6672C89B2434925800DD9448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6672C8A42434925900DD9448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6672C8AF2434925900DD9448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6672C88E2434925800DD9448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6672C8982434925800DD9448 /* ViewController.swift in Sources */,
+				6672C8962434925800DD9448 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6672C8A22434925900DD9448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6672C8AB2434925900DD9448 /* careMatePatientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6672C8AD2434925900DD9448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6672C8B62434925900DD9448 /* careMatePatientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6672C8A82434925900DD9448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6672C8912434925800DD9448 /* careMatePatient */;
+			targetProxy = 6672C8A72434925900DD9448 /* PBXContainerItemProxy */;
+		};
+		6672C8B32434925900DD9448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6672C8912434925800DD9448 /* careMatePatient */;
+			targetProxy = 6672C8B22434925900DD9448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6672C8992434925800DD9448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6672C89A2434925800DD9448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6672C89E2434925900DD9448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6672C89F2434925900DD9448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6672C8B82434925900DD9448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6672C8B92434925900DD9448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6672C8BB2434925900DD9448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = careMatePatient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.proooooo.careMatePatient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6672C8BC2434925900DD9448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = careMatePatient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.proooooo.careMatePatient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6672C8BE2434925900DD9448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = careMatePatientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.proooooo.careMatePatientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/careMatePatient.app/careMatePatient";
+			};
+			name = Debug;
+		};
+		6672C8BF2434925900DD9448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = careMatePatientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.proooooo.careMatePatientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/careMatePatient.app/careMatePatient";
+			};
+			name = Release;
+		};
+		6672C8C12434925900DD9448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = careMatePatientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.proooooo.careMatePatientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = careMatePatient;
+			};
+			name = Debug;
+		};
+		6672C8C22434925900DD9448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = careMatePatientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.proooooo.careMatePatientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = careMatePatient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6672C88D2434925800DD9448 /* Build configuration list for PBXProject "careMatePatient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6672C8B82434925900DD9448 /* Debug */,
+				6672C8B92434925900DD9448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6672C8BA2434925900DD9448 /* Build configuration list for PBXNativeTarget "careMatePatient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6672C8BB2434925900DD9448 /* Debug */,
+				6672C8BC2434925900DD9448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6672C8BD2434925900DD9448 /* Build configuration list for PBXNativeTarget "careMatePatientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6672C8BE2434925900DD9448 /* Debug */,
+				6672C8BF2434925900DD9448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6672C8C02434925900DD9448 /* Build configuration list for PBXNativeTarget "careMatePatientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6672C8C12434925900DD9448 /* Debug */,
+				6672C8C22434925900DD9448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6672C88A2434925800DD9448 /* Project object */;
+}
