@@ -7,15 +7,23 @@
 //
 
 import UIKit
-
+import MOLH
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate ,MOLHResetable{
 
     var window: UIWindow?
-
+    
+    func reset() {
+        let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
+        let stry = UIStoryboard(name: "Main", bundle: nil)
+        rootviewcontroller.rootViewController = stry.instantiateViewController(withIdentifier: "rootViewController")
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        MOLH.shared.activate(true)
+        MOLH.setLanguageTo("en")
+       
         return true
     }
 
@@ -38,7 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+       
     }
 
 
