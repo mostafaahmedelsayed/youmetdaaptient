@@ -10,6 +10,14 @@
 		11F14E9928F3AF9A791DC98A /* Pods_careMatePatientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36134E9AF621F41222CE6BA /* Pods_careMatePatientTests.framework */; };
 		2555DDE0B2935BBA67F0DF9C /* Pods_careMatePatient_careMatePatientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698E404E87813F7A834CB944 /* Pods_careMatePatient_careMatePatientUITests.framework */; };
 		45AA73BDDFDA29868AA9FC8C /* Pods_careMatePatient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC75A3D3F866575FBFD5542E /* Pods_careMatePatient.framework */; };
+		66211E9A243B4832009A16CC /* listOfSearchDoctorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66211E99243B4832009A16CC /* listOfSearchDoctorsVC.swift */; };
+		66211E9C243B5292009A16CC /* searchDoctorsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66211E9B243B5292009A16CC /* searchDoctorsListCell.swift */; };
+		66211E9E243B90DC009A16CC /* confirmBookingFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66211E9D243B90DC009A16CC /* confirmBookingFirstVC.swift */; };
+		663CCCEC243C80A80001EC92 /* ConfirmBookingFirstVcFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CCCEB243C80A80001EC92 /* ConfirmBookingFirstVcFirst.swift */; };
+		663CCCEE243C80C90001EC92 /* ConfirmBookingFirstVcseconde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CCCED243C80C90001EC92 /* ConfirmBookingFirstVcseconde.swift */; };
+		663CCCF0243C81000001EC92 /* ComfirmBookingFirstVCthird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CCCEF243C81000001EC92 /* ComfirmBookingFirstVCthird.swift */; };
+		663CCCF2243C91E10001EC92 /* doctorIfnoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CCCF1243C91E10001EC92 /* doctorIfnoCell.swift */; };
+		663CCCF4243CBB490001EC92 /* ConfirmBookingSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CCCF3243CBB490001EC92 /* ConfirmBookingSecondVC.swift */; };
 		6672C8962434925800DD9448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672C8952434925800DD9448 /* AppDelegate.swift */; };
 		6672C8982434925800DD9448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672C8972434925800DD9448 /* ViewController.swift */; };
 		6672C89B2434925800DD9448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6672C8992434925800DD9448 /* Main.storyboard */; };
@@ -30,6 +38,7 @@
 		66B8AEDC243A27E50079EF88 /* doctorSpecialityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AEDB243A27E50079EF88 /* doctorSpecialityVC.swift */; };
 		66B8AEDE243A2C500079EF88 /* SpecialityListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AEDD243A2C500079EF88 /* SpecialityListVC.swift */; };
 		66B8AEE0243A2C660079EF88 /* DoctorListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AEDF243A2C660079EF88 /* DoctorListVC.swift */; };
+		66DD2DE0243E6840006C4A8B /* ConfirmBookingThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD2DDF243E6840006C4A8B /* ConfirmBookingThirdVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +61,14 @@
 /* Begin PBXFileReference section */
 		35D720518D9062319AEFBBB7 /* Pods-careMatePatient-careMatePatientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careMatePatient-careMatePatientUITests.debug.xcconfig"; path = "Target Support Files/Pods-careMatePatient-careMatePatientUITests/Pods-careMatePatient-careMatePatientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C3E6FE5BB2D590D9A22D10C /* Pods-careMatePatientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careMatePatientTests.debug.xcconfig"; path = "Target Support Files/Pods-careMatePatientTests/Pods-careMatePatientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66211E99243B4832009A16CC /* listOfSearchDoctorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listOfSearchDoctorsVC.swift; sourceTree = "<group>"; };
+		66211E9B243B5292009A16CC /* searchDoctorsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchDoctorsListCell.swift; sourceTree = "<group>"; };
+		66211E9D243B90DC009A16CC /* confirmBookingFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmBookingFirstVC.swift; sourceTree = "<group>"; };
+		663CCCEB243C80A80001EC92 /* ConfirmBookingFirstVcFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingFirstVcFirst.swift; sourceTree = "<group>"; };
+		663CCCED243C80C90001EC92 /* ConfirmBookingFirstVcseconde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingFirstVcseconde.swift; sourceTree = "<group>"; };
+		663CCCEF243C81000001EC92 /* ComfirmBookingFirstVCthird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfirmBookingFirstVCthird.swift; sourceTree = "<group>"; };
+		663CCCF1243C91E10001EC92 /* doctorIfnoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doctorIfnoCell.swift; sourceTree = "<group>"; };
+		663CCCF3243CBB490001EC92 /* ConfirmBookingSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingSecondVC.swift; sourceTree = "<group>"; };
 		6672C8922434925800DD9448 /* careMatePatient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = careMatePatient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6672C8952434925800DD9448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6672C8972434925800DD9448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +97,7 @@
 		66B8AEDB243A27E50079EF88 /* doctorSpecialityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doctorSpecialityVC.swift; sourceTree = "<group>"; };
 		66B8AEDD243A2C500079EF88 /* SpecialityListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialityListVC.swift; sourceTree = "<group>"; };
 		66B8AEDF243A2C660079EF88 /* DoctorListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListVC.swift; sourceTree = "<group>"; };
+		66DD2DDF243E6840006C4A8B /* ConfirmBookingThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingThirdVC.swift; sourceTree = "<group>"; };
 		698E404E87813F7A834CB944 /* Pods_careMatePatient_careMatePatientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_careMatePatient_careMatePatientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EF007DDF1000F023F91F1B /* Pods-careMatePatient-careMatePatientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careMatePatient-careMatePatientUITests.release.xcconfig"; path = "Target Support Files/Pods-careMatePatient-careMatePatientUITests/Pods-careMatePatient-careMatePatientUITests.release.xcconfig"; sourceTree = "<group>"; };
 		983EF898D19FCE20719DEA6D /* Pods-careMatePatient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careMatePatient.debug.xcconfig"; path = "Target Support Files/Pods-careMatePatient/Pods-careMatePatient.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +135,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663CCCEA243C80650001EC92 /* confirmBookingFirstVCControllers */ = {
+			isa = PBXGroup;
+			children = (
+				663CCCEB243C80A80001EC92 /* ConfirmBookingFirstVcFirst.swift */,
+				663CCCED243C80C90001EC92 /* ConfirmBookingFirstVcseconde.swift */,
+				663CCCEF243C81000001EC92 /* ComfirmBookingFirstVCthird.swift */,
+			);
+			path = confirmBookingFirstVCControllers;
+			sourceTree = "<group>";
+		};
 		6672C8892434925800DD9448 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +230,11 @@
 				66B8AEDB243A27E50079EF88 /* doctorSpecialityVC.swift */,
 				66B8AEDD243A2C500079EF88 /* SpecialityListVC.swift */,
 				66B8AEDF243A2C660079EF88 /* DoctorListVC.swift */,
+				66211E99243B4832009A16CC /* listOfSearchDoctorsVC.swift */,
+				66211E9D243B90DC009A16CC /* confirmBookingFirstVC.swift */,
+				663CCCF3243CBB490001EC92 /* ConfirmBookingSecondVC.swift */,
+				663CCCEA243C80650001EC92 /* confirmBookingFirstVCControllers */,
+				66DD2DDF243E6840006C4A8B /* ConfirmBookingThirdVC.swift */,
 			);
 			path = searchForDoctorControllers;
 			sourceTree = "<group>";
@@ -227,6 +260,8 @@
 			children = (
 				668C1F4524390B4400F92F29 /* selectedComplainsCell.swift */,
 				66B8AED5243A02F70079EF88 /* compliansCell.swift */,
+				66211E9B243B5292009A16CC /* searchDoctorsListCell.swift */,
+				663CCCF1243C91E10001EC92 /* doctorIfnoCell.swift */,
 			);
 			path = searchForDoctorCells;
 			sourceTree = "<group>";
@@ -493,11 +528,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663CCCEE243C80C90001EC92 /* ConfirmBookingFirstVcseconde.swift in Sources */,
 				667EF8BD2436A86600998DA0 /* complainsSearchDoctorVC.swift in Sources */,
 				66B8AED8243A07FB0079EF88 /* governmentListVC.swift in Sources */,
 				66B8AEDC243A27E50079EF88 /* doctorSpecialityVC.swift in Sources */,
+				663CCCF0243C81000001EC92 /* ComfirmBookingFirstVCthird.swift in Sources */,
+				663CCCEC243C80A80001EC92 /* ConfirmBookingFirstVcFirst.swift in Sources */,
+				663CCCF2243C91E10001EC92 /* doctorIfnoCell.swift in Sources */,
 				66B8AEDA243A12040079EF88 /* citiesOfGovernment.swift in Sources */,
+				663CCCF4243CBB490001EC92 /* ConfirmBookingSecondVC.swift in Sources */,
+				66DD2DE0243E6840006C4A8B /* ConfirmBookingThirdVC.swift in Sources */,
+				66211E9A243B4832009A16CC /* listOfSearchDoctorsVC.swift in Sources */,
 				668C1F4624390B4400F92F29 /* selectedComplainsCell.swift in Sources */,
+				66211E9E243B90DC009A16CC /* confirmBookingFirstVC.swift in Sources */,
+				66211E9C243B5292009A16CC /* searchDoctorsListCell.swift in Sources */,
 				66B8AEE0243A2C660079EF88 /* DoctorListVC.swift in Sources */,
 				66B8AED6243A02F70079EF88 /* compliansCell.swift in Sources */,
 				6672C8C82434A45200DD9448 /* ViewController3.swift in Sources */,

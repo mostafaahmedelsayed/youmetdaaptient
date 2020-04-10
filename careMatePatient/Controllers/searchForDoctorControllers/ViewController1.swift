@@ -54,18 +54,11 @@ class ViewController1: UIViewController {
     }
     @IBAction func searchButtonCliked(_ sender: Any) {
         
-        
-
-        
-        
-//        let clvc = self.storyboard?.instantiateViewController(withIdentifier: "searchForDoctorHomeVC") as! searchForDoctorHomeVC
-        //        self.navigationController?.pushViewController(clvc, animated: false)
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "listOfSearchDoctorsVC") as? listOfSearchDoctorsVC
         
         
-//        self.present(clvc, animated: true, completion: nil)
-        
-//   self.navigationController?.pushViewController(clvc, animated: true)
-        
+        self.navigationController?.pushViewController(vc!, animated: true)
+  
         
         
     }

@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate ,MOLHResetable{
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         MOLH.shared.activate(true)
-        MOLH.setLanguageTo("en")
+        MOLH.setLanguageTo("arzo")
        
         return true
     }
