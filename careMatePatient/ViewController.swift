@@ -15,6 +15,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var orderDruglineView: UIView!
     
+    
+    @IBOutlet weak var mainView: UIView!
+    let gradient = CAGradientLayer()
+
+    
     @IBOutlet weak var labRadViewLine: UIView!
     @IBOutlet weak var bookViewLine: UIView!
     @IBOutlet weak var searchViewLine: UIView!
@@ -63,10 +68,18 @@ class ViewController: UIViewController {
 
 
     }
+   override func viewDidLayoutSubviews() {
+     gradient.frame = self.view.bounds
+   }
     
     override func viewDidLoad() {
         super.viewDidLoad()
    
+//              gradient.frame = gradient.bounds
+               gradient.cornerRadius = 20
+              gradient.colors = [#colorLiteral(red: 0.1691793799, green: 0.6415426135, blue: 1, alpha: 1).cgColor,#colorLiteral(red: 0.4549744725, green: 0.7919399738, blue: 0.1380445957, alpha: 1).cgColor]
+
+              mainView.layer.insertSublayer(gradient, at: 0)
 
         
        let viewcontroller11 = storyboard!.instantiateViewController(withIdentifier: "ViewController1")
@@ -89,9 +102,7 @@ class ViewController: UIViewController {
         viewControllerViewPager.delegate = self
         viewControllerViewPager.dataSource = self
         viewControllerViewPager.orientation = .horizontal
-//        viewPagerNavigation.viewPager = viewControllerViewPager
-//        viewControllerViewPager.reloadData()
-//        viewControllerViewPager.presentedPageIndex = 0
+
 
     }
 
@@ -243,4 +254,17 @@ extension ViewController :BmoViewPagerDelegate,BmoViewPagerDataSource
 //
   
     
+}
+extension UIView {
+    
+    func setGradientBackground(colorOne: UIColor, colorTwo: UIColor,view:UIView) {
+        
+       let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = view.bounds
+       gradientLayer.colors = [colorOne.cgColor , colorTwo.cgColor]
+       gradientLayer.locations = [0.0, 0.5, 1.0]
+       gradientLayer.startPoint = CGPoint(x:0.5 , y:1.0)
+       gradientLayer.endPoint = CGPoint(x:0.5 , y:0.0)
+       layer.insertSublayer(gradientLayer, at: 0)
+    }
 }

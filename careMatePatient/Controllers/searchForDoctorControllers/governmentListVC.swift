@@ -12,6 +12,7 @@ class governmentListVC: UIViewController {
 
     @IBOutlet weak var lastSelectedTableView: UITableView!
     
+    var listOfGovernments = [governmentsModel]()
     @IBOutlet weak var governmentListTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +29,9 @@ class governmentListVC: UIViewController {
     }
  
   
-    
+    override func viewWillAppear(_ animated: Bool) {
+        self.loadGovernment()
+    }
     
     
 
@@ -37,12 +40,14 @@ class governmentListVC: UIViewController {
 extension governmentListVC :UITableViewDelegate,UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return self.listOfGovernments.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "compliansCell", for: indexPath) as? compliansCell
 //        cell?.complainName.text =  "sdfsdf"
+        
+        cell?.complainName.text = self.listOfGovernments[indexPath.row].EnglishName
         
         return cell!
     }
@@ -51,12 +56,49 @@ extension governmentListVC :UITableViewDelegate,UITableViewDataSource
         if tableView == self.governmentListTableView
         {
             let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "citiesOfGovernment") as? citiesOfGovernment
+
             
-            
+            vc?.govId = self.listOfGovernments[indexPath.row].id ?? 0
             self.navigationController?.pushViewController(vc!, animated: true)
             
         }
     }
     
+    
+}
+
+
+extension governmentListVC
+{
+    
+    
+    func loadGovernment()  {
+        
+        
+        
+                UserModel.loadGovernments(vc: self) { (data) in
+                 
+                    
+                    if let dataConstant = data
+                    {
+                        
+                        self.listOfGovernments = dataConstant
+                        
+                       
+                        
+
+                    }
+                    self.governmentListTableView.delegate = self
+                    self.governmentListTableView.dataSource = self
+                                     
+                    
+                    self.governmentListTableView.reloadData()
+                    
+                    
+                }
+
+        
+    }
+
     
 }

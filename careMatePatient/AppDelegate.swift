@@ -8,6 +8,7 @@
 
 import UIKit
 import MOLH
+import IQKeyboardManagerSwift
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate ,MOLHResetable{
 
@@ -16,13 +17,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate ,MOLHResetable{
     func reset() {
         let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
         let stry = UIStoryboard(name: "Main", bundle: nil)
-        rootviewcontroller.rootViewController = stry.instantiateViewController(withIdentifier: "rootViewController")
+        rootviewcontroller.rootViewController = stry.instantiateViewController(withIdentifier: "gfhdhfh")
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         MOLH.shared.activate(true)
-        MOLH.setLanguageTo("arzo")
+        MOLH.setLanguageTo("en")
+        IQKeyboardManager.shared.enable = true
+
+           if let dataToken =  UserDefaults.standard.string(forKey: "databaseToken")
+           {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                            let vc = storyboard.instantiateViewController(withIdentifier: "gfhdhfh") as UIViewController
+                            
+                            window?.rootViewController = vc
+            
+           }
+        
+           else{
+            
+            let next = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginVC")
+            self.window?.rootViewController = next
+            
+            
+        }
+//        
+        
+     
        
         return true
     }

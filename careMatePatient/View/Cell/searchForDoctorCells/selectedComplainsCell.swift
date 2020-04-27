@@ -12,5 +12,8 @@ class selectedComplainsCell: UICollectionViewCell {
     
     
     @IBOutlet weak var complainName: UILabel!
+    
+    @IBOutlet weak var checkUncheck: UIButton!
+
 
 }

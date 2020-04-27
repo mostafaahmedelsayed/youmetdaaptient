@@ -9,6 +9,9 @@
 import UIKit
 
 class SpecialityListVC: UIViewController {
+    var doctorsSpecialityObject :doctorSpecialityModel?
+
+    @IBOutlet weak var serachTextField: UITextField!
 
     @IBOutlet weak var spacialityListTableView: UITableView!
     override func viewDidLoad() {
@@ -17,22 +20,49 @@ class SpecialityListVC: UIViewController {
         spacialityListTableView.delegate = self
         spacialityListTableView.dataSource = self
 
+        serachTextField.addTarget(self, action: #selector(self.textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
         
         // Do any additional setup after loading the view.
     }
     
 
-   
+    override func viewWillAppear(_ animated: Bool) {
+        loadDoctorSpeciality(SearchByKey: "")
+    }
 }
+
+
 extension SpecialityListVC :UITableViewDelegate,UITableViewDataSource
 {
+    
+    
+       @objc func textFieldDidChange(_ textField: UITextField) {
+           
+           self.doctorsSpecialityObject = nil
+
+          
+           if  let searchText = self.serachTextField.text
+           {
+               loadDoctorSpeciality(SearchByKey: searchText)
+
+              
+           }
+               
+          
+         
+           
+           
+           
+       }
+       
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return self.doctorsSpecialityObject?.Specilaity.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "compliansCell", for: indexPath) as? compliansCell
-        //        cell?.complainName.text =  "sdfsdf"
+        cell?.complainName.text =  self.doctorsSpecialityObject?.Specilaity[indexPath.row].EnglishName
         
         if indexPath.row % 2 == 0
         {
@@ -40,7 +70,7 @@ extension SpecialityListVC :UITableViewDelegate,UITableViewDataSource
             
         }
         else {
-            cell?.contentView.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
+            cell?.contentView.backgroundColor = #colorLiteral(red: 0.8901960784, green: 0.9607843137, blue: 0.9921568627, alpha: 1)
             
             
         }
@@ -49,4 +79,33 @@ extension SpecialityListVC :UITableViewDelegate,UITableViewDataSource
     
     
     
+}
+extension SpecialityListVC
+{
+
+    func loadDoctorSpeciality(SearchByKey:String)  {
+
+            UserModel.loadDoctorsAndSpeciality(vc: self, SearchByKey: SearchByKey) { (data) in
+           
+                self.doctorsSpecialityObject = nil
+                self.doctorsSpecialityObject?.Specilaity = []
+
+                               if let dataConstant = data
+                               {
+                                   
+                                self.doctorsSpecialityObject = dataConstant
+                         
+                                
+                                print(self.doctorsSpecialityObject?.Specilaity.count)
+                                
+                               }
+                
+
+                self.spacialityListTableView.reloadData()
+                                
+            }
+
+        }
+
+
 }

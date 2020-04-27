@@ -10,9 +10,12 @@
 		11F14E9928F3AF9A791DC98A /* Pods_careMatePatientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36134E9AF621F41222CE6BA /* Pods_careMatePatientTests.framework */; };
 		2555DDE0B2935BBA67F0DF9C /* Pods_careMatePatient_careMatePatientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698E404E87813F7A834CB944 /* Pods_careMatePatient_careMatePatientUITests.framework */; };
 		45AA73BDDFDA29868AA9FC8C /* Pods_careMatePatient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC75A3D3F866575FBFD5542E /* Pods_careMatePatient.framework */; };
+		66171DF5245306F20076A961 /* AvailableDoctorSlots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66171DF4245306F20076A961 /* AvailableDoctorSlots.swift */; };
 		66211E9A243B4832009A16CC /* listOfSearchDoctorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66211E99243B4832009A16CC /* listOfSearchDoctorsVC.swift */; };
 		66211E9C243B5292009A16CC /* searchDoctorsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66211E9B243B5292009A16CC /* searchDoctorsListCell.swift */; };
 		66211E9E243B90DC009A16CC /* confirmBookingFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66211E9D243B90DC009A16CC /* confirmBookingFirstVC.swift */; };
+		6630066B244DBCC000C0868A /* doctorSpecialityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6630066A244DBCC000C0868A /* doctorSpecialityModel.swift */; };
+		6637AF302455CD6B004420D6 /* ConfirmBookingThirdPopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637AF2F2455CD6B004420D6 /* ConfirmBookingThirdPopVC.swift */; };
 		663CCCEC243C80A80001EC92 /* ConfirmBookingFirstVcFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CCCEB243C80A80001EC92 /* ConfirmBookingFirstVcFirst.swift */; };
 		663CCCEE243C80C90001EC92 /* ConfirmBookingFirstVcseconde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CCCED243C80C90001EC92 /* ConfirmBookingFirstVcseconde.swift */; };
 		663CCCF0243C81000001EC92 /* ComfirmBookingFirstVCthird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CCCEF243C81000001EC92 /* ComfirmBookingFirstVCthird.swift */; };
@@ -32,13 +35,32 @@
 		6672C8CD243503D200DD9448 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672C8CC243503D200DD9448 /* extensions.swift */; };
 		667EF8BD2436A86600998DA0 /* complainsSearchDoctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667EF8BC2436A86600998DA0 /* complainsSearchDoctorVC.swift */; };
 		668C1F4624390B4400F92F29 /* selectedComplainsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C1F4524390B4400F92F29 /* selectedComplainsCell.swift */; };
+		66B1F414245052D900F9E845 /* DoctorsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1F413245052D900F9E845 /* DoctorsListModel.swift */; };
 		66B8AED6243A02F70079EF88 /* compliansCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AED5243A02F70079EF88 /* compliansCell.swift */; };
 		66B8AED8243A07FB0079EF88 /* governmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AED7243A07FB0079EF88 /* governmentListVC.swift */; };
 		66B8AEDA243A12040079EF88 /* citiesOfGovernment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AED9243A12040079EF88 /* citiesOfGovernment.swift */; };
 		66B8AEDC243A27E50079EF88 /* doctorSpecialityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AEDB243A27E50079EF88 /* doctorSpecialityVC.swift */; };
 		66B8AEDE243A2C500079EF88 /* SpecialityListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AEDD243A2C500079EF88 /* SpecialityListVC.swift */; };
 		66B8AEE0243A2C660079EF88 /* DoctorListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AEDF243A2C660079EF88 /* DoctorListVC.swift */; };
+		66C454F8244B16B700863C55 /* Apis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C454F7244B16B700863C55 /* Apis.swift */; };
+		66C454FB244B20F300863C55 /* userDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C454FA244B20F300863C55 /* userDTO.swift */; };
+		66C454FE244B220300863C55 /* WebserviceMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C454FD244B220300863C55 /* WebserviceMananger.swift */; };
+		66C45501244B228600863C55 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C45500244B228600863C55 /* UserModel.swift */; };
+		66C45503244B22E800863C55 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C45502244B22E800863C55 /* Constants.swift */; };
+		66C45505244B233500863C55 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C45504244B233500863C55 /* Languages.swift */; };
+		66C45507244B24C800863C55 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C45506244B24C800863C55 /* Reachability.swift */; };
+		66C45509244B269000863C55 /* indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C45508244B269000863C55 /* indicator.swift */; };
+		66C4550B244B26F700863C55 /* DimUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C4550A244B26F700863C55 /* DimUtility.swift */; };
+		66C45510244B296100863C55 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C4550F244B296100863C55 /* Login.swift */; };
+		66C45512244B37BF00863C55 /* validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C45511244B37BF00863C55 /* validation.swift */; };
 		66DD2DE0243E6840006C4A8B /* ConfirmBookingThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD2DDF243E6840006C4A8B /* ConfirmBookingThirdVC.swift */; };
+		66E85691244CA27000B9B493 /* governmentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E85690244CA27000B9B493 /* governmentsModel.swift */; };
+		66F1E907245471E90006F8A3 /* OtherPersonConfirmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1E906245471E90006F8A3 /* OtherPersonConfirmCell.swift */; };
+		66F1E90924547E9D0006F8A3 /* otherPersonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1E90824547E9D0006F8A3 /* otherPersonsModel.swift */; };
+		66F30061244B89F600C855D7 /* UserDefaultsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F30060244B89F600C855D7 /* UserDefaultsApi.swift */; };
+		66F30063244B987600C855D7 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F30062244B987600C855D7 /* firstViewController.swift */; };
+		66F30065244BA87700C855D7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F30064244BA87700C855D7 /* Utilities.swift */; };
+		66F5FAFE244F00EE008DE86C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F5FAFD244F00EE008DE86C /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +83,12 @@
 /* Begin PBXFileReference section */
 		35D720518D9062319AEFBBB7 /* Pods-careMatePatient-careMatePatientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careMatePatient-careMatePatientUITests.debug.xcconfig"; path = "Target Support Files/Pods-careMatePatient-careMatePatientUITests/Pods-careMatePatient-careMatePatientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C3E6FE5BB2D590D9A22D10C /* Pods-careMatePatientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careMatePatientTests.debug.xcconfig"; path = "Target Support Files/Pods-careMatePatientTests/Pods-careMatePatientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66171DF4245306F20076A961 /* AvailableDoctorSlots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableDoctorSlots.swift; sourceTree = "<group>"; };
 		66211E99243B4832009A16CC /* listOfSearchDoctorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listOfSearchDoctorsVC.swift; sourceTree = "<group>"; };
 		66211E9B243B5292009A16CC /* searchDoctorsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchDoctorsListCell.swift; sourceTree = "<group>"; };
 		66211E9D243B90DC009A16CC /* confirmBookingFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmBookingFirstVC.swift; sourceTree = "<group>"; };
+		6630066A244DBCC000C0868A /* doctorSpecialityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doctorSpecialityModel.swift; sourceTree = "<group>"; };
+		6637AF2F2455CD6B004420D6 /* ConfirmBookingThirdPopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingThirdPopVC.swift; sourceTree = "<group>"; };
 		663CCCEB243C80A80001EC92 /* ConfirmBookingFirstVcFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingFirstVcFirst.swift; sourceTree = "<group>"; };
 		663CCCED243C80C90001EC92 /* ConfirmBookingFirstVcseconde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingFirstVcseconde.swift; sourceTree = "<group>"; };
 		663CCCEF243C81000001EC92 /* ComfirmBookingFirstVCthird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfirmBookingFirstVCthird.swift; sourceTree = "<group>"; };
@@ -91,13 +116,32 @@
 		668C1F402438B03900F92F29 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		668C1F412438B03900F92F29 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		668C1F4524390B4400F92F29 /* selectedComplainsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedComplainsCell.swift; sourceTree = "<group>"; };
+		66B1F413245052D900F9E845 /* DoctorsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsListModel.swift; sourceTree = "<group>"; };
 		66B8AED5243A02F70079EF88 /* compliansCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compliansCell.swift; sourceTree = "<group>"; };
 		66B8AED7243A07FB0079EF88 /* governmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = governmentListVC.swift; sourceTree = "<group>"; };
 		66B8AED9243A12040079EF88 /* citiesOfGovernment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citiesOfGovernment.swift; sourceTree = "<group>"; };
 		66B8AEDB243A27E50079EF88 /* doctorSpecialityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doctorSpecialityVC.swift; sourceTree = "<group>"; };
 		66B8AEDD243A2C500079EF88 /* SpecialityListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialityListVC.swift; sourceTree = "<group>"; };
 		66B8AEDF243A2C660079EF88 /* DoctorListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListVC.swift; sourceTree = "<group>"; };
+		66C454F7244B16B700863C55 /* Apis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apis.swift; sourceTree = "<group>"; };
+		66C454FA244B20F300863C55 /* userDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDTO.swift; sourceTree = "<group>"; };
+		66C454FD244B220300863C55 /* WebserviceMananger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviceMananger.swift; sourceTree = "<group>"; };
+		66C45500244B228600863C55 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		66C45502244B22E800863C55 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		66C45504244B233500863C55 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		66C45506244B24C800863C55 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		66C45508244B269000863C55 /* indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indicator.swift; sourceTree = "<group>"; };
+		66C4550A244B26F700863C55 /* DimUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimUtility.swift; sourceTree = "<group>"; };
+		66C4550F244B296100863C55 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		66C45511244B37BF00863C55 /* validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validation.swift; sourceTree = "<group>"; };
 		66DD2DDF243E6840006C4A8B /* ConfirmBookingThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingThirdVC.swift; sourceTree = "<group>"; };
+		66E85690244CA27000B9B493 /* governmentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = governmentsModel.swift; sourceTree = "<group>"; };
+		66F1E906245471E90006F8A3 /* OtherPersonConfirmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPersonConfirmCell.swift; sourceTree = "<group>"; };
+		66F1E90824547E9D0006F8A3 /* otherPersonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherPersonsModel.swift; sourceTree = "<group>"; };
+		66F30060244B89F600C855D7 /* UserDefaultsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsApi.swift; sourceTree = "<group>"; };
+		66F30062244B987600C855D7 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		66F30064244BA87700C855D7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		66F5FAFD244F00EE008DE86C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		698E404E87813F7A834CB944 /* Pods_careMatePatient_careMatePatientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_careMatePatient_careMatePatientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EF007DDF1000F023F91F1B /* Pods-careMatePatient-careMatePatientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careMatePatient-careMatePatientUITests.release.xcconfig"; path = "Target Support Files/Pods-careMatePatient-careMatePatientUITests/Pods-careMatePatient-careMatePatientUITests.release.xcconfig"; sourceTree = "<group>"; };
 		983EF898D19FCE20719DEA6D /* Pods-careMatePatient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careMatePatient.debug.xcconfig"; path = "Target Support Files/Pods-careMatePatient/Pods-careMatePatient.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,9 +214,11 @@
 		6672C8942434925800DD9448 /* careMatePatient */ = {
 			isa = PBXGroup;
 			children = (
+				66C454FC244B21E900863C55 /* Helpers */,
+				66C454F9244B20DB00863C55 /* Models */,
+				66C454F6244B169F00863C55 /* SupportFiles */,
 				668C1F4224390AF700F92F29 /* View */,
 				667EF8BA2436A83100998DA0 /* Controllers */,
-				6672C8CB243503BA00DD9448 /* Utilities */,
 				6672C8952434925800DD9448 /* AppDelegate.swift */,
 				6672C8972434925800DD9448 /* ViewController.swift */,
 				6672C8992434925800DD9448 /* Main.storyboard */,
@@ -182,6 +228,7 @@
 				6672C8C52434A44400DD9448 /* ViewController2.swift */,
 				6672C8C72434A45200DD9448 /* ViewController3.swift */,
 				6672C8C92434E6D800DD9448 /* ViewController4.swift */,
+				66F5FAFD244F00EE008DE86C /* HomeVC.swift */,
 			);
 			path = careMatePatient;
 			sourceTree = "<group>";
@@ -208,6 +255,12 @@
 			isa = PBXGroup;
 			children = (
 				6672C8CC243503D200DD9448 /* extensions.swift */,
+				66C45502244B22E800863C55 /* Constants.swift */,
+				66C45504244B233500863C55 /* Languages.swift */,
+				66C45508244B269000863C55 /* indicator.swift */,
+				66C4550A244B26F700863C55 /* DimUtility.swift */,
+				66C45511244B37BF00863C55 /* validation.swift */,
+				66F30064244BA87700C855D7 /* Utilities.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -215,6 +268,7 @@
 		667EF8BA2436A83100998DA0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				66C4550C244B292A00863C55 /* AuthenticationControllers */,
 				667EF8BB2436A83E00998DA0 /* searchForDoctorControllers */,
 			);
 			path = Controllers;
@@ -235,6 +289,7 @@
 				663CCCF3243CBB490001EC92 /* ConfirmBookingSecondVC.swift */,
 				663CCCEA243C80650001EC92 /* confirmBookingFirstVCControllers */,
 				66DD2DDF243E6840006C4A8B /* ConfirmBookingThirdVC.swift */,
+				6637AF2F2455CD6B004420D6 /* ConfirmBookingThirdPopVC.swift */,
 			);
 			path = searchForDoctorControllers;
 			sourceTree = "<group>";
@@ -262,8 +317,59 @@
 				66B8AED5243A02F70079EF88 /* compliansCell.swift */,
 				66211E9B243B5292009A16CC /* searchDoctorsListCell.swift */,
 				663CCCF1243C91E10001EC92 /* doctorIfnoCell.swift */,
+				66F1E906245471E90006F8A3 /* OtherPersonConfirmCell.swift */,
 			);
 			path = searchForDoctorCells;
+			sourceTree = "<group>";
+		};
+		66C454F6244B169F00863C55 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				66C454F7244B16B700863C55 /* Apis.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		66C454F9244B20DB00863C55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66C454FA244B20F300863C55 /* userDTO.swift */,
+				66E85690244CA27000B9B493 /* governmentsModel.swift */,
+				6630066A244DBCC000C0868A /* doctorSpecialityModel.swift */,
+				66B1F413245052D900F9E845 /* DoctorsListModel.swift */,
+				66171DF4245306F20076A961 /* AvailableDoctorSlots.swift */,
+				66F1E90824547E9D0006F8A3 /* otherPersonsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66C454FC244B21E900863C55 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6672C8CB243503BA00DD9448 /* Utilities */,
+				66C454FF244B226000863C55 /* Networking */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		66C454FF244B226000863C55 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				66C454FD244B220300863C55 /* WebserviceMananger.swift */,
+				66C45500244B228600863C55 /* UserModel.swift */,
+				66C45506244B24C800863C55 /* Reachability.swift */,
+				66F30060244B89F600C855D7 /* UserDefaultsApi.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		66C4550C244B292A00863C55 /* AuthenticationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				66C4550F244B296100863C55 /* Login.swift */,
+				66F30062244B987600C855D7 /* firstViewController.swift */,
+			);
+			path = AuthenticationControllers;
 			sourceTree = "<group>";
 		};
 		B3EC101BD93D79503323DB37 /* Frameworks */ = {
@@ -380,6 +486,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 6672C8892434925800DD9448;
 			productRefGroup = 6672C8932434925800DD9448 /* Products */;
@@ -529,29 +636,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				663CCCEE243C80C90001EC92 /* ConfirmBookingFirstVcseconde.swift in Sources */,
+				66C45510244B296100863C55 /* Login.swift in Sources */,
+				66F1E907245471E90006F8A3 /* OtherPersonConfirmCell.swift in Sources */,
 				667EF8BD2436A86600998DA0 /* complainsSearchDoctorVC.swift in Sources */,
+				66C45512244B37BF00863C55 /* validation.swift in Sources */,
 				66B8AED8243A07FB0079EF88 /* governmentListVC.swift in Sources */,
+				66F1E90924547E9D0006F8A3 /* otherPersonsModel.swift in Sources */,
 				66B8AEDC243A27E50079EF88 /* doctorSpecialityVC.swift in Sources */,
 				663CCCF0243C81000001EC92 /* ComfirmBookingFirstVCthird.swift in Sources */,
+				66C45503244B22E800863C55 /* Constants.swift in Sources */,
 				663CCCEC243C80A80001EC92 /* ConfirmBookingFirstVcFirst.swift in Sources */,
+				6630066B244DBCC000C0868A /* doctorSpecialityModel.swift in Sources */,
+				66C45509244B269000863C55 /* indicator.swift in Sources */,
 				663CCCF2243C91E10001EC92 /* doctorIfnoCell.swift in Sources */,
 				66B8AEDA243A12040079EF88 /* citiesOfGovernment.swift in Sources */,
 				663CCCF4243CBB490001EC92 /* ConfirmBookingSecondVC.swift in Sources */,
 				66DD2DE0243E6840006C4A8B /* ConfirmBookingThirdVC.swift in Sources */,
+				66C454FE244B220300863C55 /* WebserviceMananger.swift in Sources */,
 				66211E9A243B4832009A16CC /* listOfSearchDoctorsVC.swift in Sources */,
+				6637AF302455CD6B004420D6 /* ConfirmBookingThirdPopVC.swift in Sources */,
+				66F5FAFE244F00EE008DE86C /* HomeVC.swift in Sources */,
 				668C1F4624390B4400F92F29 /* selectedComplainsCell.swift in Sources */,
+				66E85691244CA27000B9B493 /* governmentsModel.swift in Sources */,
 				66211E9E243B90DC009A16CC /* confirmBookingFirstVC.swift in Sources */,
 				66211E9C243B5292009A16CC /* searchDoctorsListCell.swift in Sources */,
 				66B8AEE0243A2C660079EF88 /* DoctorListVC.swift in Sources */,
 				66B8AED6243A02F70079EF88 /* compliansCell.swift in Sources */,
+				66C45507244B24C800863C55 /* Reachability.swift in Sources */,
 				6672C8C82434A45200DD9448 /* ViewController3.swift in Sources */,
+				66F30063244B987600C855D7 /* firstViewController.swift in Sources */,
+				66C454F8244B16B700863C55 /* Apis.swift in Sources */,
 				6672C8CA2434E6D800DD9448 /* ViewController4.swift in Sources */,
+				66F30061244B89F600C855D7 /* UserDefaultsApi.swift in Sources */,
+				66B1F414245052D900F9E845 /* DoctorsListModel.swift in Sources */,
 				6672C8C42434A43700DD9448 /* ViewController1.swift in Sources */,
 				6672C8CD243503D200DD9448 /* extensions.swift in Sources */,
+				66C45501244B228600863C55 /* UserModel.swift in Sources */,
 				6672C8C62434A44400DD9448 /* ViewController2.swift in Sources */,
+				66C4550B244B26F700863C55 /* DimUtility.swift in Sources */,
+				66F30065244BA87700C855D7 /* Utilities.swift in Sources */,
+				66171DF5245306F20076A961 /* AvailableDoctorSlots.swift in Sources */,
 				6672C8982434925800DD9448 /* ViewController.swift in Sources */,
 				6672C8962434925800DD9448 /* AppDelegate.swift in Sources */,
+				66C454FB244B20F300863C55 /* userDTO.swift in Sources */,
 				66B8AEDE243A2C500079EF88 /* SpecialityListVC.swift in Sources */,
+				66C45505244B233500863C55 /* Languages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,7 +789,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -716,7 +845,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -734,6 +863,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QP2833R74F;
 				INFOPLIST_FILE = careMatePatient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -753,6 +883,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QP2833R74F;
 				INFOPLIST_FILE = careMatePatient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

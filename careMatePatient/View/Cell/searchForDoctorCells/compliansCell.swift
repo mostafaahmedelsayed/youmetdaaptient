@@ -10,7 +10,8 @@ import UIKit
 
 class compliansCell: UITableViewCell {
     @IBOutlet weak var complainName: UILabel!
-    @IBOutlet weak var checkUnCheck: UIImageView!
+    @IBOutlet weak var checkUnCheck: UIButton!
+    @IBOutlet weak var checkUnCheckImage: UIImageView!
 
 
     override func awakeFromNib() {
